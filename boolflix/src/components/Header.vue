@@ -18,9 +18,6 @@
 <script>
 export default {
   name: "Header",
-  // props: {
-  //   inputText: String,
-  // },
   data() {
     return {
       inputText: "",
@@ -29,7 +26,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .header {
   display: flex;
